@@ -3,4 +3,4 @@ Fancybox.bind("[data-fancybox]", {
 });
 
 
-const mixer = mixitup
+const mixer = mixitup()
