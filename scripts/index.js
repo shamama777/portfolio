@@ -11,6 +11,11 @@ burger.addEventListener('click', () => {
    document.body.classList.toggle('active')
 })
 
+const headerLinks = document.querySelectorAll('.header__link')
+
+headerLinks.forEach(link => {
+   link.addEventListener('click', () => document.body.classList.remove('active'))
+})
 
 
 
