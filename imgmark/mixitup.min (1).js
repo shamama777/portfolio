@@ -3430,3 +3430,4 @@
 		(e.NAME = 'mixitup'),
 		(e.CORE_VERSION = '3.3.2')
 })(window)
+

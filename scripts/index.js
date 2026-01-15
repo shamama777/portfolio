@@ -1,6 +1,20 @@
-Fancybox.bind("[data-fancybox]", {
-  // Your custom options
-});
+Fancybox.bind("[data-fancybox]", {})
+
+const burger = document.querySelector('.header__burger')
 
 
-const mixer = mixitup(".works__gallery")
+
+
+
+
+burger.addEventListener('click', () => {
+   document.body.classList.toggle('active')
+})
+
+
+
+
+
+
+const mixer = mixitup('.works__gallery')
+
